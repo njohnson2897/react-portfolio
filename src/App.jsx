@@ -1,4 +1,4 @@
-import { PlaceholderComponent } from "./components/PlaceholderComponent";
+import PlaceholderComponent from "./components/PlaceholderComponent";
 
 function App() {
   return <PlaceholderComponent />;
