@@ -1,7 +1,17 @@
+import { RxAvatar } from "react-icons/rx";
+import { IconContext } from 'react-icons';
+
+
 export default function AboutPage() {
     return (
         <div>
+          <div className='d-flex'>
         <h2>About Me</h2>
+        {/* syntax from here: https://www.npmjs.com/package/react-icons */}
+        <IconContext.Provider value={{ size: 50}}>
+        <RxAvatar className='mx-5'/>
+        </IconContext.Provider>
+          </div>
         <p>
           I am a software developer based in Chicago, Illinois.  I enjoy building full-stack
           web applications and creating engaging user experiences. </p>
