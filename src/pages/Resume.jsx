@@ -1,5 +1,5 @@
 export default function Resume() {
     return (
-        <div></div>
+        <div>My Resume:</div>
     )
 }
