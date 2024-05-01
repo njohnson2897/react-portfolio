@@ -1,13 +1,7 @@
 import { useState } from 'react';
 
 export default function Contact() {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
 
-    const handleInputChange = (e) => {
-        setName()
-    }
     return (
         <div>
         <form>
