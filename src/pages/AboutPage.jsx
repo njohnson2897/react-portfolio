@@ -14,37 +14,6 @@ export default function AboutPage() {
         Community Engagement Team in their fight to end hunger in Chicago. I hope to return to the nonprofit sector 
         at some point and utilize my software development skills at a company making a difference in Chicago</p>
        
-        <h3>Skills</h3>
-        <div className="row">
-        <div className="col-md-4">
-          <h3>Front-End</h3>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Handlebars</li>
-          </ul>
-        </div>
-        <div className="col-md-4">
-          <h3>Back-End</h3>
-          <ul>
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-        <div className="col-md-4">
-          <h3>Libraries/Frameworks</h3>
-          <ul>
-            <li>Bootstrap</li>
-            <li>jQuery</li>
-            <li>Mongoose</li>
-            <li>Sequelize</li>
-            <li>Express.js</li>
-            <li>Node.js</li>
-          </ul>
-        </div>
-      </div>
         <h3>Education</h3>
         <p>
           I went to the University of Chicago where I studied Public Policy with a specialization in Education 
