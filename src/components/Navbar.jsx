@@ -1,4 +1,4 @@
-// came  form the module 20 mini project
+// came from the module 20 mini project
 export default function Navbar({ links }) {
     return (
       <nav className="navbar navbar-expand-lg bg-secondary">

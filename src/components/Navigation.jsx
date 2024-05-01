@@ -6,6 +6,8 @@ export default function Nav() {
   const currentPage = useLocation().pathname;
     return (
       <Navbar
+      // ternary operators make the tab for the current page highlighted with dark text
+      // each tab in the nav bar is a link using react-router for internal navigation
         links={[
         <Link key={1} className={currentPage === '/' ? "nav-link active" : 'nav-link text-light'} to="/">
             About Me

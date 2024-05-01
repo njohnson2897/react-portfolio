@@ -18,6 +18,8 @@ projectData[5].imgSrc =  noteTaker;
 
 export default function Portfolio() {
     return (
+        // maps through all of projectData and creates a new array of Project components
+        // with the data from the original array available as a prop
         <div>
         {projectData.map((project) => <Project key={project.id} data={project}/>)}
         </div>

@@ -32,6 +32,7 @@ export default function Resume() {
           </ul>
         </div>
         <div className='d-flex text-center justify-content-evenly'>
+            {/* links to my techncial and non-technical resumes */}
         <a className='text-decoration-none text-white btn btn-secondary fs-5  my-5' href='https://drive.google.com/file/d/1dJE2YxqRvRQPsqTx78m6-V06oWypmXCF/view?usp=drive_link'>Non-technical Resume</a>
         <a className='text-decoration-none text- btn btn-secondary fs-5 my-5' href='https://drive.google.com/file/d/1NOaOyA8J35XGK0XgF52a0won_42EEO_b/view?usp=drive_link'>Technical Resume</a>
         </div>

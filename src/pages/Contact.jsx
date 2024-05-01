@@ -7,6 +7,10 @@ export default function Contact() {
     const [userName, setName] = useState('');
     const [message, setMessage] = useState('');
 
+
+    // logic for when the user submits the contact form
+    // if the email is invalid, they will be given an error message below the submit button
+    // if the email is valid, the form will be "submitted" and an alert will thank them for their message
     const handleFormSubmit = (e) => {
         e.preventDefault();
 
@@ -17,17 +21,20 @@ export default function Contact() {
         alert('Thank you for your message, I will respond as soon as possible');
     };
 
+    // logic for if the user leaves a field blank
+    // depending on which field is left blank when they click out of the input, the error message
+    // will tell the user to enter text into that field
     const handleNoInput = (e) => {
         const { name, value } =  e.target;
         if(name === 'name' && value === '') {
             setErrorMessage(`Please enter your ${name}`)
-            setName(value)
+            setName('')
         } else if (name === 'email' && value === '') {
             setErrorMessage(`Please enter your ${name}`)
-            setEmail(value)
+            setEmail('')
         } else if (name === 'message' && value === '') {
             setErrorMessage(`Please enter your ${name}`)
-            setMessage(value)
+            setMessage('')
         }
     };
 
