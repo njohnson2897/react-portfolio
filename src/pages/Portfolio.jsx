@@ -1,3 +1,4 @@
+// imports all necessary data from other directories
 import projectData from '../utils/data';
 import trivl from '../assets/trivl.jpg';
 import activ from '../assets/activ.jpg';
@@ -8,6 +9,7 @@ import noteTaker from '../assets/noteTaker.jpg';
 
 import Project from '../components/Project'
 
+// assigns an imgSrc attribute to each element in the array which is a path to the image assets
 projectData[0].imgSrc =  trivl;
 projectData[1].imgSrc =  activ;
 projectData[2].imgSrc =  weatherApp;
